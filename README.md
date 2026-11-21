@@ -1,4 +1,9 @@
-# Smart Grid Sensor Anomaly Detection - synthetic replay MVP
+# Smart Grid Sensor Anomaly Detection
+
+**Statistical Voltage Anomaly Detection Using Synthetic Sensor Data**
+
+A reproducible anomaly-detection experiment comparing fixed voltage limits with a causal rolling median/MAD detector on
+synthetic sensor readings, using frozen configurations and held-out fault evaluation.
 
 **Everything here is SYNTHETIC.** The data are invented by a seeded generator, every threshold is an arbitrary
 test setting, and no result says anything about real grid equipment or operational limits. Findings are specific
@@ -12,6 +17,8 @@ scored using only earlier readings.
 Python 3.13. Dependencies are pinned in `requirements-dev.txt` (pandas, pytest, matplotlib).
 
 ```bash
+git clone https://github.com/RyanJBush/Smart-Grid-Sensor-Anomaly-Detection.git
+cd Smart-Grid-Sensor-Anomaly-Detection
 pip install -r requirements-dev.txt
 ```
 
